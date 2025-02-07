@@ -21,7 +21,7 @@ class Factorial
 			//fact (1)= 1*2   -> 2
 			//fact (2)= 2*3   ->6
 			//fact (6)= 6*4   ->24
-			//fact (24)= 24*5 ->120
+			//fact (24)= 24*5 ->120   
 			//fact ()
 			fact=fact*i;
 
