@@ -23,12 +23,15 @@ class sumofDigitsloop
 			if(rem%2==0)
 			{
 			  sum+=rem;
+
 			  
 
 			}
 			 num/=10;
 
+			 System.out.println(rem);
 		}
+		System.out.println();
 		System.out.println(sum);
 
 

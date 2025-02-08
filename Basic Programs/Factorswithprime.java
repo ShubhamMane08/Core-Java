@@ -14,8 +14,6 @@ class Factorswithprime
 				count++;
 				System.out.print(i+" ");
 			}
-
-
 		}
 		System.out.println();
 		System.out.print(count==0? num+" is a prime":num+" is not prime");
