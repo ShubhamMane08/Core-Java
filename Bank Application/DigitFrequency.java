@@ -3,6 +3,8 @@ class DigitFrequency
 	public static void main(String[] args) 
 	{
 		long num = 1213531343l;
+		int dgt=0;
+		int max=0;
 		System.out.println(num);
 		for(int i =0; i<9;i++)
 		{
@@ -18,9 +20,15 @@ class DigitFrequency
 			}
 			if(cnt!=0)
 			{
-				System.out.println(i+" : "+cnt);
+				if(max<cnt)
+				{
+					max=cnt;
+					dgt=i;
+				}
+
 			}
 		}
+		System.out.println("max digit is"+dgt+" with a frequency of "+max);
 		
 	}
 }
