@@ -109,7 +109,7 @@ class Bank
 							 		for(int j=3; j>=1;j--)
 							 		{
 							 			System.out.println();
-							 			System.out.print("Enter the PIN : ");
+							 			System.out.print(" Enter the PIN : ");
 							 			String password3=sc.next();
 							 			if(password3.equals(password1))
 							 			{

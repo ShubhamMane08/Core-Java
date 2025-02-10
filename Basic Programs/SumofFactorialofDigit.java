@@ -10,7 +10,7 @@ class SumofFactorialofDigit
 		{
 			int fact=1;
 			int rem=num%10;
-			if(rem%2==0)
+			if(rem%2!=0)
 			{
 				for(int j = rem;j>=1;j--)
 				{
