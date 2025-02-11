@@ -6,15 +6,21 @@ class StringReverse
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Name : ");
 		String s = sc.next().toUpperCase();
-		
+					//ritesh
 		String rev = "";
 
-
-		for(int i=0; i<s.length();i++)
+				//1  true	
+				//0  true		//0(1)
+		// for(int i=0; i<s.length();i++)
+		// {
+		// 		//""=r+""=r
+		// 		//"r"=i+"r"=ir
+		// 		rev=s.charAt(i)+rev;
+			
+		// }
+		for(int i=s.length()-1;i>=0;i--)
 		{
-			
-				rev= s.charAt(i)+rev;
-			
+			rev+=s.charAt(i);
 		}
 
 		System.out.println(rev);
