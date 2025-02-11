@@ -20,7 +20,7 @@ class CountDgt
 				
 			}
 		}
-		System.out.println(" max Count is : "+max);
+		System.out.println(" max Count is : "+i);
 
 	}
 	
