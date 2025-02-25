@@ -5,22 +5,26 @@ class Calculator
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
+		System.out.println();
+		System.out.println("------------WELCOME--------------");
+		System.out.println();
 		System.out.print("Enter First Number : ");
 		int a=sc.nextInt();
 		System.out.print("Enter Second Number : ");
 		int b=sc.nextInt();
 		System.out.println();
-		System.out.println("1.Addition");
-		System.out.println("2.Subtraction");
-		System.out.println("3.Multiplication");
-		System.out.println("4.Division");
-		System.out.println("5. Modulus");
+		System.out.println(" 1. Addition");
+		System.out.println(" 2. Subtraction");
+		System.out.println(" 3. Multiplication");
+		System.out.println(" 4. Division");
+		System.out.println(" 5. Modulus");
+		System.out.println(" 6. Exit");
 		System.out.println();
 		
-		
+		outerloop:
 		for(;;)
 		{
-			System.out.print("Select option : ");
+			System.out.print(" Select option : ");
 			int opt=sc.nextInt();
 			switch(opt)
 			{
@@ -51,17 +55,18 @@ class Calculator
 					break;
 
 				}
+			case 6 :
+				{
+					break outerloop;
+				}
 			default:
 				{
-					System.out.println("Please Enter Correct Option..!!");
-					break;
+					System.out.println(" Please Enter Correct Option..!!");
+					break ;
 
 				}
 			}
 		}
-
-		
-	
 
 	}
 	public static void addition(int a,int b)
@@ -69,7 +74,7 @@ class Calculator
 		System.out.println("    Addition   ");
 		
 		int answer=a+b;
-		System.out.println(a+" + "+b+" = "+answer);
+		System.out.println(" "+a+" + "+b+" = "+answer);
 		System.out.println();
 	}
 	public static void subtraction(int a,int b)
@@ -77,14 +82,14 @@ class Calculator
 		System.out.println("   Subtraction   ");
 		
 		int answer=a-b;
-		System.out.println(a+" - "+b+" = "+answer);
+		System.out.println(" "+a+" - "+b+" = "+answer);
 		System.out.println();
 	}
 	public static void division(int a,int b)
 	{
 		System.out.println("   Division  ");
 		int answer= a/b;
-		System.out.println(a+" / "+b+" = "+answer);
+		System.out.println(" "+a+" / "+b+" = "+answer);
 		System.out.println();
 		
 	}
@@ -92,7 +97,7 @@ class Calculator
 	{
 		System.out.println("   Multiplication  ");
 		int answer= a*b;
-		System.out.println(a+" * "+b+" = "+answer);
+		System.out.println(" "+a+" * "+b+" = "+answer);
 		System.out.println();
 
 	}
@@ -101,7 +106,7 @@ class Calculator
 		System.out.println("   Modulus   ");
 
 		int answer= a%b;
-		System.out.println(a+" % "+b+" = "+answer);
+		System.out.println(" "+a+" % "+b+" = "+answer);
 		System.out.println();
 	}
 
