@@ -25,7 +25,7 @@ class Binding
 	{
 		String str="shubham";
 		System.out.println(str);
-		System.out.println(str.replace('s','v')+" "+ str.length());
+		System.out.println(str.replace('s','v')+" "+ str.length()+" "+str.toUpperCase());
 		System.out.println(str.startsWith("sh"));
 	}
 }
