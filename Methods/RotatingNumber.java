@@ -1,8 +1,13 @@
+import java.util.Scanner;
 class RotatingNumber
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(rotate(1234));
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number : ");
+		int num=sc.nextInt();
+
+		System.out.println(rotate(num));
 	}
 	public static int rotate(int num)
 	{
