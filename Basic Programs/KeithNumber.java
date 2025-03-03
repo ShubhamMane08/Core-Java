@@ -1,3 +1,4 @@
+//Error
 import java.util.*;
 class KeithNumber
 {
@@ -25,9 +26,8 @@ class KeithNumber
 			for(int i=0;i<len;i++)
 				sum+=arr[i];
 			for(int i =0;i<len;i++)
-			{
 				arr[i-1]=arr[i];
-			}
+			
 			arr[len-1]=sum;
 			if(dup==sum)
 			{
@@ -42,10 +42,7 @@ class KeithNumber
 		else
 		{
 			System.out.println(dup+" is not a Keith Number..!!");
-		}
-
-		
-		
+		}	
 	}
 	
 }

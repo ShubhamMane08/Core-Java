@@ -14,6 +14,7 @@ class AllInOne
 	public static void checkPrime(int num)
 	{
 		int den=3;
+		
 		while(den<=num/2)
 		{
 			if(num%den==0)

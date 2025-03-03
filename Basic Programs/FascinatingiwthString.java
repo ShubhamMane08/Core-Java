@@ -30,7 +30,7 @@ class FascinatingiwthString
 
 		}
 		System.out.println(flag? dup+" is a Fascinating Number..!" 
-							:num+" is not a Fascinating Number..!");
+							:dup+" is not a Fascinating Number..!");
 		
 	}
 	

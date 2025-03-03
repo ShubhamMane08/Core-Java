@@ -17,7 +17,6 @@ class Triangle12
 
 			}
 			System.out.println();
-
 		}
 	}
 }

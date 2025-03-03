@@ -1,5 +1,3 @@
-//Error
-
 import java.util.Scanner;
 class DuckNumber
 {

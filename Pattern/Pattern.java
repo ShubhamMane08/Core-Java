@@ -1,4 +1,10 @@
-
+//*
+//* *
+//* * *
+//* * * *
+//* * *
+//* *
+//*
 class Pattern
 {
 	public static void main(String[] arg)
@@ -20,6 +26,5 @@ class Pattern
 			}
 				System.out.println();
 		}
-
 	}
 }
