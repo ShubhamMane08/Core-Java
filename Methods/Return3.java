@@ -1,5 +1,4 @@
 //Palindromic Prime
-//error
 import java.util.Scanner;
 class Return3
 {
