@@ -1,9 +1,13 @@
 //Range of Armstrong Number
+import java.util.Scanner;
 class ArmstrongNumber
 {
 	public static void main(String[] args) 
 	{
-		for(int start=1;start<=1000;start++)
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Range : ");
+		int range=sc.nextInt();
+		for(int start=1;start<=range;start++)
 		{
 			if(isArmstrong(start))
 			{
