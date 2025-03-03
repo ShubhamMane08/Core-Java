@@ -9,6 +9,7 @@ class Return3
 		System.out.print("Enter a Number : ");
 		int ip =sc.nextInt();
 		int rev=reverse(ip);
+		// System.out.println(isPrime(ip));
 		if(ip==rev && isPrime(ip))
 		{
 			System.out.println("It is a Palindromic Prime Number.");
