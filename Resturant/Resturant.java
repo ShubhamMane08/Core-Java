@@ -11,7 +11,7 @@ class Resturant
 		for( ; ;)
 		{
 			System.out.println();
-			System.out.println("        JAVA KA DHABA");
+			System.out.println("\tJAVA KA DHABA");
 			System.out.println();
 			System.out.println("1. Create Account");
 			System.out.println("2. Existing User");
