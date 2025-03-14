@@ -2,7 +2,8 @@ class Factorial
 {
 	public static void main(String[] args)
 	{
-		
+		System.out.println("Factorial => "+isFactorial(5));
+		System.out.println("Count => "+count(1234));
 	}
 	public static int isFactorial(int num)
 	{
@@ -22,7 +23,7 @@ class Factorial
 			num/=10;
 			ct++;
 		}
-		return ct
+		return ct;
 	}
 	
 }
