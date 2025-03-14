@@ -8,8 +8,6 @@ class AllInOne
 		int num = sc.nextInt();
 		checkPrime(num);
 		
-		
-		
 	}
 	public static void checkPrime(int num)
 	{
@@ -23,7 +21,7 @@ class AllInOne
 			}
 			den++;
 		}
-		if(num/2>den)
+		if(num/2<den)
 		{
 			System.out.println(" It is Prime Number");
 		}
