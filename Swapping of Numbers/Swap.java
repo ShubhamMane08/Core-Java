@@ -7,7 +7,6 @@ class Swap
 		System.out.println("Before Swapping a: "+dup1+" b : "+dup2);
 	   //a=0001
 	   //b=0010
-
 		a=a^b;
 	   //a=0011
 		b=a^b;
