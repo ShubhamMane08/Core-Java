@@ -29,6 +29,7 @@ class RangeOfPrime
 			if(num%den==0)
 			{
 				return false;
+				//return Nothing
 			}
 		}
 		return true;
