@@ -7,6 +7,7 @@ class MintoDays
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter the number in Minutes : ");
+		// 90
 		long min = sc.nextLong();
 
 		long minInYear=365*24*60;
