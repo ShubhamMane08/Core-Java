@@ -6,9 +6,12 @@ class DigitFrequency
 		int dgt=0;
 		int max=0;
 		System.out.println(num);
+		//     0   true
 		for(int i =0; i<9;i++)
 		{
+			//0
 			int cnt=0;
+			/
 			for(long j=num;j>0;j/=10)
 			{
 				long rem = j%10;
