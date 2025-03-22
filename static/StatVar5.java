@@ -7,7 +7,5 @@ class StatVar5
 		System.out.println(ch);
 		System.out.println(StatVar4.s);
 		System.out.println(StatVar2.balance);
-
-		
 	}
 }
