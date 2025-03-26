@@ -20,6 +20,24 @@ class MobileDriver
 		System.out.println("Camera: "+m1.camera);
 		System.out.println("Price: "+m1.price);
 
+		//Samsung
+		Mobile m2 = new Mobile();
+		System.out.println("-----------------------------------------");
+		System.out.println(m2);
+		m2.brand="SAMSUNG";
+		m2.model="S25";
+		m2.ram=16;
+		m2.rom=1;
+		m2.camera=3;
+		m2.price=125000.0;
+
+		System.out.println("Brand: "+m2.brand);
+		System.out.println("Model: "+m2.model);
+		System.out.println("RAM: "+m2.ram);
+		System.out.println("ROM: "+m2.rom+"TB");
+		System.out.println("Camera: "+m2.camera);
+		System.out.println("Price: "+m2.price);
+
 		
 	}
 }
