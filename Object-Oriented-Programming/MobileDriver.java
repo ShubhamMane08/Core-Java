@@ -28,7 +28,7 @@ class MobileDriver
 		m2.model="S25";
 		m2.ram=16;
 		m2.rom=1;
-		m2.camera=3;
+		m2.camera=5;
 		m2.price=125000.0;
 
 		System.out.println("Brand: "+m2.brand);
@@ -37,6 +37,24 @@ class MobileDriver
 		System.out.println("ROM: "+m2.rom+"TB");
 		System.out.println("Camera: "+m2.camera);
 		System.out.println("Price: "+m2.price);
+
+		//Realme
+		Mobile m3 = new Mobile();
+		System.out.println("-----------------------------------------");
+		System.out.println(m3);
+		m3.brand="REALME";
+		m3.model="Realme 11 5G";
+		m3.ram=8;
+		m3.rom=256;
+		m3.camera=2;
+		m3.price=20000.0;
+
+		System.out.println("Brand: "+m3.brand);
+		System.out.println("Model: "+m3.model);
+		System.out.println("RAM: "+m3.ram);
+		System.out.println("ROM: "+m3.rom+"GB");
+		System.out.println("Camera: "+m3.camera);
+		System.out.println("Price: "+m3.price);
 
 		
 	}
