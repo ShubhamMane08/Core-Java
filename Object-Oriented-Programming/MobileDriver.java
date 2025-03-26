@@ -56,6 +56,24 @@ class MobileDriver
 		System.out.println("Camera: "+m3.camera);
 		System.out.println("Price: "+m3.price);
 
+		//Redmi
+		Mobile m4 = new Mobile();
+		System.out.println("-----------------------------------------");
+		System.out.println(m4);
+		m4.brand="REDMI";
+		m4.model="Redmi Note 15 Pro";
+		m4.ram=16;
+		m4.rom=512;
+		m4.camera=4;
+		m4.price=30000.0;
+
+		System.out.println("Brand: "+m4.brand);
+		System.out.println("Model: "+m4.model);
+		System.out.println("RAM: "+m4.ram);
+		System.out.println("ROM: "+m4.rom+"TB");
+		System.out.println("Camera: "+m4.camera);
+		System.out.println("Price: "+m4.price);
+
 		
 	}
 }
