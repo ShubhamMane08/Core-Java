@@ -4,7 +4,6 @@ class MobileDriver
 	{
 		//Apple
 		Mobile m1 = new Mobile();
-		System.out.println("-----------------------------------------");
 		System.out.println(m1);
 		m1.brand="APPLE";
 		m1.model="iPhone 16 Pro";
@@ -12,17 +11,12 @@ class MobileDriver
 		m1.rom=1;
 		m1.camera=3;
 		m1.price=150000.0;
+		m1.display();
 
-		// System.out.println("Brand: "+m1.brand);
-		// System.out.println("Model: "+m1.model);
-		// System.out.println("RAM: "+m1.ram);
-		// System.out.println("ROM: "+m1.rom+"TB");
-		// System.out.println("Camera: "+m1.camera);
-		// System.out.println("Price: "+m1.price);
 
+	
 		//Samsung
 		Mobile m2 = new Mobile();
-		System.out.println("-----------------------------------------");
 		System.out.println(m2);
 		m2.brand="SAMSUNG";
 		m2.model="S25";
@@ -30,17 +24,13 @@ class MobileDriver
 		m2.rom=1;
 		m2.camera=5;
 		m2.price=125000.0;
+		m2.display();
 
-		// System.out.println("Brand: "+m2.brand);
-		// System.out.println("Model: "+m2.model);
-		// System.out.println("RAM: "+m2.ram);
-		// System.out.println("ROM: "+m2.rom+"TB");
-		// System.out.println("Camera: "+m2.camera);
-		// System.out.println("Price: "+m2.price);
+
+
 
 		//Realme
 		Mobile m3 = new Mobile();
-		System.out.println("-----------------------------------------");
 		System.out.println(m3);
 		m3.brand="REALME";
 		m3.model="Realme 11 5G";
@@ -48,17 +38,13 @@ class MobileDriver
 		m3.rom=256;
 		m3.camera=2;
 		m3.price=20000.0;
+		m3.display();
 
-		// System.out.println("Brand: "+m3.brand);
-		// System.out.println("Model: "+m3.model);
-		// System.out.println("RAM: "+m3.ram);
-		// System.out.println("ROM: "+m3.rom+"GB");
-		// System.out.println("Camera: "+m3.camera);
-		// System.out.println("Price: "+m3.price);
+
+
 
 		//Redmi
 		Mobile m4 = new Mobile();
-		System.out.println("-----------------------------------------");
 		System.out.println(m4);
 		m4.brand="REDMI";
 		m4.model="Redmi Note 15 Pro";
@@ -66,13 +52,9 @@ class MobileDriver
 		m4.rom=512;
 		m4.camera=4;
 		m4.price=30000.0;
+		m4.display();
 
-		// System.out.println("Brand: "+m4.brand);
-		// System.out.println("Model: "+m4.model);
-		// System.out.println("RAM: "+m4.ram);
-		// System.out.println("ROM: "+m4.rom+"TB");
-		// System.out.println("Camera: "+m4.camera);
-		// System.out.println("Price: "+m4.price);
+	
 
 		
 	}

@@ -17,6 +17,7 @@ class Mobile
 		System.out.println("ROM: "+rom);
 		System.out.println("Camera: "+camera);
 		System.out.println("Price: "+price);
+		System.out.println("-----------------------------------------");
 
 	}
 }
