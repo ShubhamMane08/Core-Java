@@ -34,8 +34,10 @@ class RoomDriver
 		rm3.type="1RK";
 		rm3.floor=6;
 		rm3.owner="Shubham";
-		rm3.parking=" Not Availabe";
+		// rm3.parking=" Not Availabe";
 		rm3.rent=4000.0;
 		rm3.details();
+
+		
 	}
 }

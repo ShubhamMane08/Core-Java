@@ -5,7 +5,7 @@ class Room
 	String type;
 	String owner;
 	double rent;
-	String parking;
+	String parking="Available";
 
 
 	public void details()
