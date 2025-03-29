@@ -16,5 +16,6 @@ class Room
 		System.out.println("Owner Name : "+owner);
 		System.out.println("Rent : "+rent);
 		System.out.println("Parking : "+parking);
+		System.out.println("---------------------------------");
 	}
 }
