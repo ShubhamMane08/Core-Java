@@ -28,5 +28,14 @@ class RoomDriver
 		rm2.parking="Availabe";
 		rm2.rent=4500.0;
 		rm2.details();
+
+		Room rm3= new Room();
+
+		rm3.type="1RK";
+		rm3.floor=6;
+		rm3.owner="Shubham";
+		rm3.parking=" Not Availabe";
+		rm3.rent=4000.0;
+		rm3.details();
 	}
 }
