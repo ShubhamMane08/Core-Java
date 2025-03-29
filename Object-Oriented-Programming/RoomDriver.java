@@ -18,5 +18,15 @@ class RoomDriver
 		rm1.parking="Availabe";
 		rm1.rent=5000.0;
 		rm1.details();
+
+
+		Room rm2= new Room();
+
+		rm2.type="1BHK";
+		rm2.floor=9;
+		rm2.owner="Onkar";
+		rm2.parking="Availabe";
+		rm2.rent=4500.0;
+		rm2.details();
 	}
 }

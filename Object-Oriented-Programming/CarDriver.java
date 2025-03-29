@@ -10,6 +10,5 @@ class CarDriver
 		c1.modeOfFuel="CNG";
 		c1.price=400000.0;
 		c1.details();
-		
 	}
 }

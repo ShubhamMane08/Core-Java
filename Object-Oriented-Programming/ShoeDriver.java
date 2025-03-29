@@ -7,6 +7,5 @@ class ShoeDriver
 		sh.size=8;
 		sh.price=2000.0;
 		sh.display();
-		
 	}
 }
