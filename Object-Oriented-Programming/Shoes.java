@@ -6,6 +6,9 @@ class Shoes
 	String type;
 
 	{
+
+		System.out.println("Non-static Block Started");
+		this.details();
 		if(brand.charAt(0)=='N')
 		{
 			price=1000.0;
@@ -14,6 +17,22 @@ class Shoes
 		{
 			price=500.0;
 		}
+		System.out.println("Non-static Block ends");
+
+	}
+
+	Shoes()
+	{
+		System.out.println("From no args Constructor");
+
+	}
+	Shoes(String name, double price, String type)
+	{
+		
+		this.name=name;
+		this.price=price;
+		this.type=type;
+
 	}
 	public void details()
 		{

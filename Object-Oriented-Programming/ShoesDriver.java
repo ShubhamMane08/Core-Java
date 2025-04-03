@@ -2,10 +2,7 @@ class ShoesDriver
 {
 	public static void main(String[] args) 
 	{
-		Shoes sh = new Shoes();
-		sh.name="AIR Jordhan";
-		sh.type="Sports";
+		Shoes sh = new Shoes("AIR JORDHAN",3500.0,"Sports");
 		sh.details();
-		
 	}
 }
