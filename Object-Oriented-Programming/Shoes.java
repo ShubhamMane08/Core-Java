@@ -28,6 +28,7 @@ class Shoes
 	}
 	Shoes(String name, double price, String type)
 	{
+		System.out.println("Constructor Block Starts");
 		
 		this.name=name;
 		this.price=price;
