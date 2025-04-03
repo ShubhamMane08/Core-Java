@@ -43,5 +43,6 @@ class Shoes
 			System.out.println("Name : "+name);
 			System.out.println("Type : "+type);
 			System.out.println("Price "+price);
+			System.out.println("Methods Ends");
 		}
 }
