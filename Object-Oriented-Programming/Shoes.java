@@ -18,12 +18,15 @@ class Shoes
 			price=500.0;
 		}
 		System.out.println("Non-static Block ends");
-
+		System.out.println("----------------");
 	}
 
 	Shoes()
 	{
 		System.out.println("From no args Constructor");
+		System.out.println(this);
+		System.out.println("----------------");
+
 
 	}
 	Shoes(String name, double price, String type)
@@ -34,6 +37,8 @@ class Shoes
 		this.price=price;
 		this.type=type;
 		System.out.println("Constructor Block Ends");
+		System.out.println("----------------");
+
 
 	}
 	public void details()
@@ -44,5 +49,7 @@ class Shoes
 			System.out.println("Type : "+type);
 			System.out.println("Price "+price);
 			System.out.println("Methods Ends");
+			System.out.println("----------------");
+
 		}
 }
