@@ -38,6 +38,7 @@ class Shoes
 	}
 	public void details()
 		{
+			System.out.println("Methods Started ");
 			System.out.println("Brand : "+brand);
 			System.out.println("Name : "+name);
 			System.out.println("Type : "+type);
