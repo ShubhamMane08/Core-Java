@@ -33,6 +33,7 @@ class Shoes
 		this.name=name;
 		this.price=price;
 		this.type=type;
+		System.out.println("Constructor Block Ends");
 
 	}
 	public void details()
