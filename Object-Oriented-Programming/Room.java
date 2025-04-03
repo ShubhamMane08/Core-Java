@@ -7,7 +7,10 @@ class Room
 	double rent;
 	String parking="Available";
 
+	Room()
+	{
 
+	}
 	public void details()
 	{
 		System.out.println("Apartment : "+apartment);

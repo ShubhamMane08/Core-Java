@@ -6,10 +6,21 @@ class Student
 	String degree;
 	int roll;
 
+
 	Student()
 	{
 		System.out.println("From Constructor");
 		System.out.println(this);
+	}
+
+	Student(String name, int age, String degree, String coll,int roll )
+	{
+		
+		this.name=name;
+		this.age=age;
+		this.degree=degree;
+		this.coll=coll;
+		this.roll=roll;
 	}
 
 	public void details()
