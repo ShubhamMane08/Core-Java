@@ -8,7 +8,7 @@ class Shoes
 	{
 
 		System.out.println("Non-static Block Started");
-		this.details();
+		details();
 		if(brand.charAt(0)=='N')
 		{
 			price=1000.0;
