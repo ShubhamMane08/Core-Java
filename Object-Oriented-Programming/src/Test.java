@@ -14,5 +14,9 @@ class Test
 		System.out.println("From static block 2");
 		System.out.println(ch);
 	}
+	{
+		System.out.println("From non-static block 1");
+		
+	}
 
 }
