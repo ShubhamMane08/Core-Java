@@ -20,13 +20,23 @@ class Form
 		this.phone=phone;
 		this.gen=gen;
 		this.dob=dob;
+		System.out.println("------------------");
 		System.out.println("From Constructor 1 ");
 	}
 	Form(String name, long phone,char gen,String dob,long tel)
 	{
-		this();
+		this(name,phone,gen,dob);
 		this.tel=tel;
+		System.out.println("------------------");
 		System.out.println("From Constructor 2");
+	}
+
+	Form(String name, long phone,char gen,String dob,long tel,String blood)
+	{
+		this();
+		this.blood=blood;
+		System.out.println("------------------");
+		System.out.println("From Constructor 3");
 	}
 
 	public void displayForm()
