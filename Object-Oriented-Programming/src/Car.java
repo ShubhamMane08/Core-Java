@@ -8,6 +8,11 @@ class Car
 	int topSpeed;
 
 
+	Car()
+	{
+		
+	}
+
 	public void details()
 	{
 		String model=" (Kidnaper Car)";
