@@ -17,6 +17,4 @@ public class StudentDriver {
 		s1.setPhoneNumber(true, 8857988919l);
 		System.out.println(s1.getPhoneNumber());
 	}
-
-	
 }

@@ -11,5 +11,13 @@ public class Refill {
 		this.size=size;
 		
 	}
+	public String getColor()
+	{
+		return color;
+	}
+	public int getSize()
+	{
+		return size;
+	}
 
 }
