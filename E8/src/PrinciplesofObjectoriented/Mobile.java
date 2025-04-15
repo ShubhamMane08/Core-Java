@@ -6,6 +6,7 @@ public class Mobile {
 	double price;
 	Sim s;
 	Charger c;
+	Earbuds eb;
 	
 		
 	public Mobile()
@@ -35,6 +36,12 @@ public class Mobile {
 	{
 		c= new Charger(brand, type, price, voltage);
 		System.out.println("Charger Connected!");
+	}
+	
+	public void connectEarbuds(String brand,int frequency,String type,double price )
+	{
+		eb=new Earbuds(brand, frequency, type, price);
+		System.out.println("Earbuds Connected Succesfully");
 	}
 }
 
