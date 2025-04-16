@@ -33,6 +33,11 @@ public class Bag {
 	public void insertBook(String brand,String type,int size,double price)
 	{
 		b=new books(brand, type,size, price);
+		
+		System.out.println("Brand : "+brand);
+		System.out.println("Type of Book : "+type);
+		System.out.println("Size of Book : "+size);
+		System.out.println("Price of Book : "+price);
 		System.out.println("Books is Carried in Bag");
 	}
 
