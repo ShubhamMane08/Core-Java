@@ -29,6 +29,8 @@ public class Motherboard {
 		System.out.println("Diode : "+diode);
 		System.out.println("Processor : "+ processor);
 		System.out.println("Price : "+price);
+		System.out.println();
+		
 	}
 	
 
