@@ -24,6 +24,7 @@ public class HardDisk {
 		System.out.println("Brand : "+brand);
 		System.out.println("Capacity : "+capacity+"GB");
 		System.out.println("Read Write Speed : "+speed);
+		System.out.println();
 	}
 	
 
