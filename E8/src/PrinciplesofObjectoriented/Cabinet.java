@@ -27,7 +27,7 @@ public class Cabinet {
 		mb.displayMotherboard();
 		hdd.displayHardDisk();
 		
-		System.out.println("Cabinet ");
+		System.out.println("Details Cabinet ");
 		System.out.println("Power Button :"+startbutton);
 		System.out.println("Number of Ports Present in Cabinet : "+ports);
 	}
