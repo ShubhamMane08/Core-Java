@@ -17,7 +17,6 @@ public class books {
 		this.type=type;
 		this.size=size;
 		this.price=price;
-		
 	}
 	
 	public void displayBook()
