@@ -20,6 +20,7 @@ public class HardDisk {
 	
 	public void displayHardDisk()
 	{
+		System.out.println("Details of HardDisk");
 		System.out.println("Brand : "+brand);
 		System.out.println("Capacity : "+capacity+"GB");
 		System.out.println("Read Write Speed : "+speed);

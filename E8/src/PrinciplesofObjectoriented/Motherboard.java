@@ -23,6 +23,7 @@ public class Motherboard {
 	}
 	public void displayMotherboard()
 	{
+		System.out.println("About Motherboard");
 		System.out.println("Registers : "+register);
 		System.out.println("Cooling Fans"+coolingfan);
 		System.out.println("Diode : "+diode);
