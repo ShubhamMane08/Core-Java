@@ -24,8 +24,9 @@ public class Cabinet {
 	public void DisplayCPU()
 	{
 		System.out.println("-------------------Specifications-------------------");
-		System.out.println(mb);
-		System.out.println(hdd);
+		mb.displayMotherboard();
+		hdd.displayHardDisk();
+		
 		System.out.println("Cabinet ");
 		System.out.println("Power Button :"+startbutton);
 		System.out.println("Number of Ports Present in Cabinet : "+ports);
