@@ -14,7 +14,7 @@ public class HardDisk {
 	public HardDisk(String brand, String capacity, int speed) {
 		super();
 		this.brand = brand;
-		capacity = capacity;
+		this.capacity = capacity;
 		this.speed = speed;
 	}
 	
