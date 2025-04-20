@@ -20,4 +20,11 @@ public class Monitor {
 		this.price=price;
 	}
 
+	public void displayMonitor()
+	{
+		System.out.println("Brand of Monitor : "+brand);
+		System.out.println("Pixel Resolution : "+resolution);
+		System.out.println("Size of the Screen : "+size);
+		System.out.println("Price of Monitor :"+price);
+	}
 }
