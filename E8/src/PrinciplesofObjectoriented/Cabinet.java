@@ -34,6 +34,8 @@ public class Cabinet {
 		System.out.println("Details Cabinet ");
 		System.out.println("Power Button :"+startbutton);
 		System.out.println("Number of Ports Present in Cabinet : "+ports);
+		System.out.println("Monitor Connected");
+		System.out.println("Keyboard Connected");
 	}
 	
 	
