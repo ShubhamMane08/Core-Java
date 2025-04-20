@@ -6,6 +6,7 @@ public class Cabinet {
 	int ports;
 	Motherboard mb;
 	HardDisk hdd;
+	Monitor mm;
 	
 	
 	Cabinet()
