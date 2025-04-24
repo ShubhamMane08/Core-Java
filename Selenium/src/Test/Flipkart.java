@@ -23,6 +23,7 @@ public class Flipkart {
             closePopup.click();
         } catch (Exception e) {
             System.out.println("Login popup not displayed");
+            
         }
         
 		WebElement searchBox = driver.findElement(By.name("q"));
