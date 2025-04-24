@@ -27,10 +27,11 @@ public class Flipkart {
         }
         
 		WebElement searchBox = driver.findElement(By.name("q"));
-		searchBox.sendKeys("Realme Phones");
+		searchBox.sendKeys("Realme Phones"); 
+		
 		searchBox.submit();
 		
-		   List<WebElement> productNames = driver.findElements(By.className("KzDlHZ"));
+		   List<WebElement> productNames = driver.findElements(By.className("KzDlHZ")); 
 	        List<WebElement> productPrices = driver.findElements(By.className("Nx9bqj"));
 	        List<WebElement> productRatings = driver.findElements(By.className("XQDdHH"));
 
