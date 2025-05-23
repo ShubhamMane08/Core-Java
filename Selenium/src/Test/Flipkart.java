@@ -26,8 +26,9 @@ public class Flipkart {
             
         }
         
+        
 		WebElement searchBox = driver.findElement(By.name("q"));
-		searchBox.sendKeys("Realme Phones"); 
+		searchBox.sendKeys("iPhone"); 
 		
 		searchBox.submit();
 		
@@ -165,15 +166,6 @@ public class Flipkart {
 	        } catch (Exception e) {
 	            System.out.println("❌ Error while removing item from cart: " + e.getMessage());
 	        }
-////	         ✅ Now check if cart is empty
-//	        try {
-//	            WebElement emptyCartMessage = driver.findElement(By.xpath("//div[contains(text(),'Your cart is empty!')]"));
-//	            if (emptyCartMessage.isDisplayed()) {
-//	                System.out.println("✅ Cart is successfully empty now!");
-//	            }
-//	        } catch (Exception e) {
-//	            System.out.println("Cart is not empty. Something went wrong.");
-//	        }
 		driver.quit();
 	        
 	        
