@@ -27,7 +27,8 @@ public class Flipkart {
         
         
 		WebElement searchBox = driver.findElement(By.name("q"));
-		searchBox.sendKeys("iPhone"); 
+		searchBox.sendKeys("oneplus phone"); 
+		Thread.sleep(3000);
 		
 		searchBox.submit();
 		
