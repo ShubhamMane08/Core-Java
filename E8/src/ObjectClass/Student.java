@@ -27,5 +27,15 @@ public class Student {
 	{
 		return "Name: "+name+", College: "+college+", Roll :"+roll+", Degree: "+degree+", Stream: "+stream;
 	}
+	
+	//Error
+	public boolean equals()
+	{
+		if(this.name==name && this.college==college  && this.roll==roll && this.degree==degree&& this.stream==stream)
+		{
+			return false;
+		}
+		return true;
+	}
 
 }
