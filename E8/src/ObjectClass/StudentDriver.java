@@ -6,6 +6,9 @@ public class StudentDriver {
 		Student s1 = new Student("Raju","FC",123,"BE","CS");
 		System.out.println(s1.toString());
 		System.out.println(s1);
+		
+		Student s2 = new Student("OM","RIT",2272021,"Diploma","Civil");
+		System.out.println(s2.toString());
 	}
 
 }
