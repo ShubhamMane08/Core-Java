@@ -9,7 +9,6 @@ public class PubgDriver {
 		p1.turnLeft();
 		p1.turnRight();
 		
-	
 	}
 
 }
