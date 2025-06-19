@@ -29,13 +29,19 @@ public class Student {
 	}
 	
 	//Error
-	public boolean equals()
+	public boolean equals(Object o)
 	{
-		if(this.name==name && this.college==college  && this.roll==roll && this.degree==degree&& this.stream==stream)
+		
+		Student s =  (Student)o;
+		if(this.name==s.name && this.college==s.college  && this.roll==s.roll && this.degree==s.degree&& this.stream==s.stream)
 		{
-			return false;
+			return true;
 		}
-		return true;
+		return false;
+	}
+	public int hashCode()
+	{
+		return name.hashCode()+college.hashCode()+roll+degree.hashCode()+stream.hashCode();
 	}
 
 }
