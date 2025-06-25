@@ -22,8 +22,6 @@ public class ArithmaticException {
 		catch(ArithmeticException ref)
 		{
 			System.out.println("You cannot divide with zero..!");
-		}
-		
-			
+		}	
 	}
 }
