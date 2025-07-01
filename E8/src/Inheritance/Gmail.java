@@ -14,11 +14,7 @@ public class Gmail extends Google{
 	
 	public Gmail(String ceo, String hq, double turnover, String email, String pass)
 	{
-		this.ceo=ceo;
-		this.hq=hq;
-		this.turnover=turnover;
-		this.email=email;
-		this.pass=pass;
+		super(ceo,hq,turnover,email,pass);
 		
 	
 	}
