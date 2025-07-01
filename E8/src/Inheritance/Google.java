@@ -18,6 +18,7 @@ public class Google {
 
 	public Google(String ceo, String hq, double turnover,String email,String pass)
 	{
+		super();
 		this.ceo=ceo;
 		this.hq=hq;
 		this.turnover=turnover;
