@@ -14,10 +14,7 @@ public class GoogleDrive extends Google {
 	}
 	public GoogleDrive(String ceo, String hq, String email, String pass, int photos,int videos, int docs, int audio,int bin)
 	{
-		this.ceo=ceo;
-		this.hq=hq;
-		this.email=email;
-		this.pass=pass;
+		super(ceo, hq, bin, email, pass);
 		
 		this.photos=photos;
 		this.videos=videos;
