@@ -1,5 +1,4 @@
-package Arrays;
-
+package Arrays;    
 import java.util.Arrays;
 public class MissingElement {
 	public static void main(String[] args) {
@@ -52,9 +51,6 @@ public class MissingElement {
 		}
 		return res;
 	}
-	
-	
-	
 	
 	public static int[] wholeArray(int[]ar)//Method3 for adding all the values into a new array
 	{
