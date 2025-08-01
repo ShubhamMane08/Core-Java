@@ -1,3 +1,10 @@
+/String/
+/AccessModifier/
+/AccessModifier1/
+/Algorithms/
+/Arrays/
+/Encapsulation/
+/Exception/
 /Inheritance/
 /Interface/
 /ObjectClass/
@@ -5,5 +12,6 @@
 /Polymorphism/
 /PrinciplesofObjectoriented/
 /SQL/
-/abstraction/
 /TwoDimentionalArray/
+/abstraction/
+/module-info.class
