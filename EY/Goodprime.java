@@ -20,16 +20,16 @@ class Goodprime
 				}
 
 			}
-			if(falg)
+			if(flag)
 			{
 				if(i<0)
 				{
 					System.out.print(i+" " );
-					cnt++
+					cnt++;
 				}
 				else if(i>21)
 				{
-					boolean falg1=true;
+					boolean flag1=true;
 					outer:
 					for(int j=i;j>0;j/=10)
 					{

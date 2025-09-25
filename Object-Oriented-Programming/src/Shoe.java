@@ -1,6 +1,6 @@
 class Shoe
 {
-	String brand="Nike";
+	String brand="Adidas";
 	String type;
 	int size;
 	double price;
